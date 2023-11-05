@@ -16,7 +16,7 @@
         <asp:TextBox ID="txtNum2" runat="server"></asp:TextBox>
 
         <asp:DropDownList ID="DropDownList1" runat="server">
-            <asp:ListItem Value="+">Somar</asp:ListItem>
+            <asp:ListItem Value="+" >Somar</asp:ListItem>
             <asp:ListItem Value="-">Subtrair</asp:ListItem>
             <asp:ListItem Value="*">Multiplicar</asp:ListItem>
             <asp:ListItem Value="/">Dividir</asp:ListItem>

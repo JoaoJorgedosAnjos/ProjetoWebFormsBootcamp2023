@@ -14,6 +14,40 @@ namespace ProjetoWebFormsBootcamp2023
 
         }
 
+        protected void btnPainel2Proximo_Click(object sender, EventArgs e)
+        {
+            Panel2.Visible = false;
+            Panel3.Visible = true;
+            Panel4.Visible = false;
+        }
+        protected void btnPainel3Proximo_Click(object sender, EventArgs e)
+        {
+            Panel2.Visible = false;
+            Panel3.Visible = false;
+            Panel4.Visible = true;
+        }
+
+        protected void btnPainel3EVoltar_Click(object sender, EventArgs e)
+        {
+            Panel2.Visible = true;
+            Panel3.Visible = false;
+            Panel4.Visible = false;
+        }
+
+        protected void btnPainel4Voltar_Click(object sender, EventArgs e)
+        {
+            Panel2.Visible = false;
+            Panel3.Visible = true;
+            Panel4.Visible = false;
+        }
+
+       
+
+        protected void btnPainel4Enviar_Click(object sender, EventArgs e)
+        {
+            lblEnviarDados.Text = "AVISO! Os seus dados foram enviados com sucesso";
+        }
+
        
     }
 }
