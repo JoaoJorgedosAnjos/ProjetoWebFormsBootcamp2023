@@ -25,15 +25,15 @@ namespace ProjetoWebFormsBootcamp2023
                 {
                     case "+":
                         resultado = num1 + num2;
-                        lblResultado.Text = "= " + resultado;
+                        lblResultado.Text =  ""+resultado;
                         break;
                     case "-":
                         resultado = num1 - num2;
-                        lblResultado.Text = "= " + resultado;
+                        lblResultado.Text = "" + resultado;
                         break;
                     case "*":
                         resultado = num1 * num2;
-                        lblResultado.Text = "= " + resultado;
+                        lblResultado.Text = "" + resultado;
                         break;
                     case "/":
                         if (num2 == 0)
@@ -43,13 +43,21 @@ namespace ProjetoWebFormsBootcamp2023
                         else
                         {
                             resultado = num1 / num2;
-                            lblResultado.Text = "= " + resultado;
+                            lblResultado.Text = "" + resultado;
                             
                         }
                         break;
                     case "%":
-                        resultado = num1 % num2;
-                        lblResultado.Text = "= " + resultado;
+                        if (num2 == 0)
+                        {
+                            lblResultado.Text = "Por favor, insira números diferente de 0.";
+                        }
+                        else
+                        {
+                            resultado = num1 % num2;
+                            lblResultado.Text = "" + resultado;
+
+                        }
                         break;
                 }
 
