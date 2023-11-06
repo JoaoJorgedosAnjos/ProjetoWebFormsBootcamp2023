@@ -50,7 +50,8 @@
                                             <asp:TextBox ID="TextCel" runat="server" TextMode="Phone"></asp:TextBox></td>
                                     </tr>
                                     <td>
-                                        <asp:Button ID="btnPainel2Proximo" runat="server" Text="Proximo" OnClick="btnPainel2Proximo_Click" />
+                                         <asp:Button CssClass="btnCalculadora" ID="btnCalcular" runat="server" Text="Calcular"  />
+                                        <asp:Button CssClass="btn" ID="btnPainel2Proximo" runat="server" Text="Proximo" OnClick="btnPainel2Proximo_Click" />
                                     </td>
                             </asp:Panel>
                             <asp:Panel ID="Panel3" runat="server" Visible="false">

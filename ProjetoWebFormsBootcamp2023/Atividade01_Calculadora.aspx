@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Atividade 01</title>
+    <title>Calculadora</title>
     <link rel="stylesheet" type="text/css" href="css/calculadora.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,8 +35,8 @@
 
                 <asp:Button CssClass="btnCalculadora" ID="btnCalcular" runat="server" Text="Calcular" OnClick="btnCalcular_Click" />
                 <asp:Label ID="lblResultado" runat="server" Font-Bold="True"></asp:Label>
+            </form>
         </div>
     </div>
-    </form>
 </body>
 </html>
