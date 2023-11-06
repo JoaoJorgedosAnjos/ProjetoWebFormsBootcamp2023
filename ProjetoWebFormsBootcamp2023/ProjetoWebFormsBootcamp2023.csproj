@@ -72,6 +72,7 @@
     <Content Include="Atividade03_Panel.aspx" />
     <Content Include="Aula1WebForms.aspx" />
     <Content Include="css\calculadora.css" />
+    <Content Include="css\formWeb.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

@@ -5,8 +5,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+
+    <link rel="stylesheet" type="text/css" href="css/formWeb.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="container">
     <h1>Selecione os dias disponiveis para trabalhar</h1>
     <form id="form1" runat="server">
         <asp:CheckBoxList ID="CheckBoxList1" runat="server">
@@ -21,8 +28,8 @@
         <br />
          <asp:Button ID="brnCblDiasSemana" runat="server" Text="Enviar" OnClick="brnCblDiasSemana_Click"/>
     <br />
-    <asp:Label ID="lblClbResultadoNaTela" runat="server"></asp:Label>
-        <div>
+        <div class="lblClbResultadoNaTela">
+    <asp:Label  ID="lblClbResultadoNaTela" runat="server"></asp:Label>
         </div>
     </form>
 </body>
